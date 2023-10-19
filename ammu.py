@@ -1,0 +1,5 @@
+ndays=int(input("enter number of days"))
+nyears=int(ndays/365)
+nweeks=int(ndays%367/7)
+remndays=int(ndays%365%7)
+print(f"years={nyears},weeks={nweeks},days={remndays}")
